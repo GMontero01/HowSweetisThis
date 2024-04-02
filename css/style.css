@@ -1,0 +1,195 @@
+/** Global Classes **/
+.f-row{display: flex;}
+.g-row{display: grid;}
+.col-1{grid-template-columns: 100%;}
+.col-2{grid-template-columns: 50% 50%;}
+.col-3{grid-template-columns: repeat(3,1fr);}
+.masthead{
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+}
+.button{
+    padding: 15px 40px;
+    border: solid 2px #0e0e0e;
+    text-decoration: none;
+    color: #0e0e0e;
+    transition: all .25s ease-in-out;
+}
+.button_1{
+    border-color: #EC2227;
+    background-color: #EC2227;
+    color: #f8f8f8;
+}
+.button_1:hover{
+    border-color: #e79696;
+    background-color: #e79696;
+    color: #f8f8f8;
+}
+
+html{scroll-behavior: smooth;}
+body{margin: 0%; background-color: #f8f8f8;}
+h1,h2,h3,h4,h5,h6{font-family: 'Lato',sans-serif;}
+p,a,li{
+    font-family: 'Lato',sans-serif;
+    font-size: 1.2em;
+}
+header{
+    width: auto;
+    height: 115px;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+header div{
+    width: auto;
+    height: 105px;
+    flex-grow: 1;
+}
+header img{
+    width: auto;
+    height: 100%;
+}
+header menu{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+header li {padding: 0% 10px;}
+header li a{
+    color: #0e0e0e;
+    text-decoration: none;
+    transition: all .25s linear;
+    font-family: "Emilys Candy",serif;
+    font-size: 2em;
+}
+.masthead > div{
+    width: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-row {
+    font-family: "Emilys Candy",serif;
+}
+.footerBox {
+    background-color:#f8f8f8 ; 
+    color: #0e0e0e; 
+    padding-top: 40px; 
+}
+  .footer {
+    width: 90%; 
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+  }
+  
+  .contact-form,
+  .company-info,
+  .logo {
+    width: calc(33.33% - 20px); 
+    margin: 0 10px; 
+  }
+  
+  .contact-form h3,
+  .company-info h3 {
+    font-size: 24px; 
+    margin-bottom: 15px; 
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+  width: 80%; 
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+  
+  .contact-form input[type="submit"] {
+    background-color: #EC2227; 
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+  }
+  
+  .company-info p {
+    margin-bottom: 10px; 
+  }
+  
+  .logo img {
+    max-width: 100%; 
+  }
+  .row {
+    text-align: center;
+  }
+
+.kitkat header menu li:hover a{
+    color: #e79696;
+    text-decoration: underline;
+}
+.kitkat .masthead{background-image: url("../img/backgroundtry.png");}
+.kitkat .masthead > div{
+    background: rgb(91,0,191);
+    background: linear-gradient(130deg, rgb(230, 11, 29) 0%, rgba(233, 17, 46, 0.6) 45%, rgba(85, 0, 0, 0.3) 100%);
+}
+.kitkat .masthead h1{
+    font-size: 4em;
+    color: #f8f8f8;
+    text-shadow: 4px 3px 4px rgba(14,14,14,.6);
+}
+.kitkat section:nth-child(2){
+    padding: 5%;
+}
+.kitkat section:nth-child(2) > h2{
+    color: #0e0e0e;
+    font-size: 26px;  
+}
+.kitkat section:nth-child(2) > h2 span{
+    color: #EC2227;
+    font-size: 32px;  
+    font-family: "Emilys Candy",serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.kitkat section:nth-child(3) > div h3{
+    font-size: 28px;
+}
+.kitkat section:nth-child(3) > div:nth-child(1){
+    order: 2;
+    background-image: url("../img/0_KitKat-trademark-court-case.webp");
+    background-size: cover;
+    background-position: right;
+}
+.kitkat section:nth-child(3) > div:nth-child(2){
+    order: 1;
+    padding: 5%;
+}
+.kitkat section:nth-child(4) > div{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 350px;
+}
+.kitkat section:nth-child(4) h4{
+    font-size: 26px;
+}
+.kitkat section:nth-child(4) i{
+    font-size: 38px;
+}
+.kitkat section:nth-child(4) > div:nth-child(odd){
+    background-color: #EC2227;
+    color: #f8f8f8;
+}
+.kitkat section:nth-child(4) > div:nth-child(even){
+    background-color: #e79696;
+    color: #f8f8f8;
+}
+
